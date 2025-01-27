@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   check-dependencies:
-    uses: iorikaze/startbootstrap-resume/.github/workflows/check-dependency.yaml@master
+    uses: iorikaze/startbootstrap-resume/.github/workflows/check-dependencies.yaml@master
 
   check-test-cases:
     needs: check-dependencies
