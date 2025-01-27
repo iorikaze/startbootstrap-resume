@@ -4,7 +4,7 @@ WORKDIR /home/node
 
 COPY ./scripts ./app/scripts
 COPY ./src ./app/src
-RUN npm ci
+COPY ./node_modules ./app/node_modules
 COPY ./dist ./app/dist
 COPY package*.json ./app
 
