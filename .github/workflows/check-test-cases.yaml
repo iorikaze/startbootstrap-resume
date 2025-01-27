@@ -18,5 +18,5 @@ jobs:
             cache: 'npm'
             cache-dependency-path: package-lock.json
 
-      - name: Run Test Cases
-        run: npm test
+      - name: Check Test Cases
+        run: npm run test
