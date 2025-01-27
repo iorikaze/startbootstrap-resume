@@ -1,0 +1,10 @@
+name: Pull Requests
+
+on:
+  pull_request:
+    branches:
+      - 'master'
+
+jobs:
+  check-dependencies:
+    uses: iorikaze/startbootstrap-resume/.github/workflows/check-dependency.yaml@master

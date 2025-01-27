@@ -10,7 +10,8 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "test": "jest"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
@@ -40,12 +41,13 @@
     },
     "devDependencies": {
         "autoprefixer": "10.4.14",
-        "browser-sync": "2.29.1",
+        "browser-sync": "^3.0.3",
         "chokidar": "3.5.3",
         "concurrently": "6.3.0",
-        "postcss": "8.4.21",
+        "jest": "^29.7.0",
+        "postcss": "^8.5.1",
         "prettier": "2.8.6",
-        "pug": "3.0.2",
+        "pug": "^3.0.3",
         "sass": "1.60.0",
         "shelljs": "0.8.5",
         "upath": "2.0.1"
