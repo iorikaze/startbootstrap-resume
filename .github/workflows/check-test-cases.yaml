@@ -18,5 +18,8 @@ jobs:
             cache: 'npm'
             cache-dependency-path: package-lock.json
 
+      - name: Install Dependencies
+        run: npm install
+
       - name: Check Test Cases
         run: npm run test
