@@ -46,5 +46,6 @@ jobs:
           sudo service docker start
           sudo usermod -a -G docker ec2-user
           docker ps -q --filter "name=my-container" | grep -q . && docker stop my-container && docker rm -fv my-container
+          echo "REGISTRY/$REPOSITORY:$IMAGE_TAG"
           docker pull $REGISTRY/$REPOSITORY:$IMAGE_TAG
           docker run -d --name my-container -p 3000:3000 $REGISTRY/$REPOSITORY:$IMAGE_TAG
