@@ -106,6 +106,13 @@ Expected Output:
 ![image](https://github.com/user-attachments/assets/4c796489-67f1-43c9-aaf3-cd01ad82acf3)
 ![image](https://github.com/user-attachments/assets/51924645-44c2-41bc-9e91-2ae6f330212c)
 
+## Points to Improve on:
+- Security of the Application. Deploy to a Fargate. If still using EC2, put it behind an ALB and WAF. Enable also GuardDuty
+- Implement least privelege for Security Group of EC2.
+- Use a EIP for static Public IP of EC2.
+- Implement a cache to optimize performance of the pipeline.
+- Implement better unit test cases.
+
 ## How to Modify Workflows
 - All workflows are defined in YAML files inside .github/workflows/.
 - To edit a workflow, modify the respective YAML file and commit the changes
