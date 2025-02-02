@@ -65,7 +65,7 @@ Expected Outputs:
 
 ### 4. push-ecr
 
-Purpose: To build, tag, and push a docker image to AWS ECR.
+Purpose: To build, tag, and push a docker image to Amazon ECR.
 
 Triggers:
 A manual trigger by the user that also includes a user input for the tag of the image.
@@ -73,12 +73,12 @@ A manual trigger by the user that also includes a user input for the tag of the 
 Actions Performed:
 - It will trigger [check-dependencies](https://github.com/iorikaze/startbootstrap-resume/blob/master/.github/workflows/check-dependencies.yaml) to check for dependencies vulnerabilities.
 - It will trigger [check-test-cases](https://github.com/iorikaze/startbootstrap-resume/blob/master/.github/workflows/check-test-cases.yaml) to cross check with the test cases using JEST.
-- It will build the image and push it AWS ECR.
+- It will build the image and push it Amazon ECR.
 
 Expected Outputs:
 ![image](https://github.com/user-attachments/assets/3e79ae91-f162-4480-a030-7a34a46e26dc)
 ![image](https://github.com/user-attachments/assets/8ea8e3ee-c06d-45b1-9e54-75519d18e580)
-- Image and corresponding tag should reflect on AWS ECR and Docker Desktop.
+- Image and corresponding tag should reflect on Amazon ECR.
 
 
 ### 5. deploy-ec2
@@ -94,7 +94,7 @@ Actions Performed:
 Expected Outputs:
 ![image](https://github.com/user-attachments/assets/41dbf4f5-98bd-43e5-bafc-f77fb0556ae2)
 ![image](https://github.com/user-attachments/assets/1975b2c1-5940-4353-9141-54bdfad52d44)
-- Container should reflect in your Docker Desktop and when you SSH into EC2 and run docker ps.
+- Container should be shown when you SSH into EC2 and run docker ps.
 
 ## Expected Application Output
 
