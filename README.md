@@ -78,6 +78,7 @@ Actions Performed:
 Expected Outputs:
 ![image](https://github.com/user-attachments/assets/3e79ae91-f162-4480-a030-7a34a46e26dc)
 ![image](https://github.com/user-attachments/assets/8ea8e3ee-c06d-45b1-9e54-75519d18e580)
+- Image and corresponding tag should reflect on AWS ECR and Docker Windows.
 
 
 ### 5. deploy-ec2
@@ -93,6 +94,7 @@ Actions Performed:
 Expected Outputs:
 ![image](https://github.com/user-attachments/assets/41dbf4f5-98bd-43e5-bafc-f77fb0556ae2)
 ![image](https://github.com/user-attachments/assets/1975b2c1-5940-4353-9141-54bdfad52d44)
+- Container should reflect in your Docker Windows and when you SSH into EC2 and run docker ps.
 
 ## Expected Application Output
 
