@@ -107,7 +107,7 @@ Expected Output:
 ![image](https://github.com/user-attachments/assets/51924645-44c2-41bc-9e91-2ae6f330212c)
 
 ## Points to Improve on:
-- Security of the Application. Deploy to a Fargate. If still using EC2, put it behind an ALB and WAF. Enable also GuardDuty
+- Security of the Application. Deploy to a Fargate. If still using EC2, put it behind an ALB and WAF. Include an SSL certificate on the listenr. Make the application only accessible via HTTPS. Enable also GuardDuty
 - Implement least privelege for Security Group of EC2.
 - Use a EIP for static Public IP of EC2.
 - Implement a cache to optimize performance of the pipeline.
