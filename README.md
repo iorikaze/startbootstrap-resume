@@ -18,6 +18,7 @@
 - [Jest](https://jestjs.io/docs/getting-started)
 
 ## Workflows Overview
+![CICD](https://github.com/user-attachments/assets/64dde08d-48e3-4715-ac00-a98b89932132)
 
 ### 1. check-dependencies
 
