@@ -5,12 +5,12 @@
 ## Pre-requisites
 
 ### 1. IAM Role
-- Include ECR Power User permission
-- Should have [Trust Policy for GitHub Actions](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)
+- This should include ECR Power User permission
+- This should have [Trust Policy for GitHub Actions](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)
 
 ### 2. EC2
-- Should have public IP
-- SG should be open to port 443, SSH, 80, and 3000.
+- This should have public IP
+- The Security Group should be open to port 443, SSH, 80, and 3000.
 
 ### 2. Installations on local machine
 - [Docker](https://docs.docker.com/desktop/setup/install/windows-install/)
