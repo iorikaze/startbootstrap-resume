@@ -88,8 +88,10 @@ Expected Outputs:
 ## Expected Application Output
 
 Actions to Perform
-1. Take the Public IP of the EC2 and append ":3000".
-2. Run in a browser.
+1. SSH into the EC2
+2. Run **docker ps**
+3. Take the Public IP of the EC2 and append ":3000".
+4. Run in a browser.
 
 Expected Output:
 ![image](https://github.com/user-attachments/assets/4c796489-67f1-43c9-aaf3-cd01ad82acf3)
