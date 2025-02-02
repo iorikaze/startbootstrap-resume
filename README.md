@@ -47,13 +47,12 @@ Purpose: Whenever a pull request is done, it will check the dependencies.
 Triggers:
 Whenever a pull request is done.
 
+Actions Performed:
+- It will trigger [check-dependencies](https://github.com/iorikaze/startbootstrap-resume/blob/master/.github/workflows/check-dependencies.yaml) to check for dependencies vulnerabilities.
+
 Expected Outputs:
 ![image](https://github.com/user-attachments/assets/3bdf71d5-7784-4c12-bd52-b481e7302071)
 ![image](https://github.com/user-attachments/assets/fae08b4f-03c2-4478-8717-52d6aefa40ce)
-
-
-Actions Performed:
-- It will trigger [check-dependencies](https://github.com/iorikaze/startbootstrap-resume/blob/master/.github/workflows/check-dependencies.yaml) to check for dependencies vulnerabilities.
 
 ### 4. push-ecr
 
