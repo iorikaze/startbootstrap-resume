@@ -17,6 +17,14 @@
 - [Nodejs](https://nodejs.org/en/download)
 - [Jest](https://jestjs.io/docs/getting-started)
 
+## Dockerfile
+![image](https://github.com/user-attachments/assets/992027bd-6381-45dd-83ea-e8d80cf6a708)
+- Used alpine version of nodejs base image
+- Used an existing user and transferred ownership of the directories
+- Created a port mapping to port 3000
+- Implemented a health check that runs every 30 seconds and ensures that the application responds within 10 seconds. If the check fails 3 times consecutively, the container is marked as unhealthy.
+- Executes the command npm run start
+
 ## Workflows Overview
 ![CICD](https://github.com/user-attachments/assets/64dde08d-48e3-4715-ac00-a98b89932132)
 
